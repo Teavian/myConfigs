@@ -1,0 +1,43 @@
+base ---
+base
+base-devel
+linux
+linux-firmware
+intel-ucode
+grub
+efibootmgr
+networkmanager
+openssh
+man-db
+sudo
+reflector
+
+btrfs ---
+btrfs-progs
+grub-btrfs
+inotify-tools
+timeshift
+
+sound ---
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+wireplumber
+
+desktop ---
+kde-gtk-config
+kdeplasma-addons
+kscreen
+kvantum
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-systemmonitor
+
+me ---
+kakoune
+links
+virtualbox-guest-utils
+terminology
+ly

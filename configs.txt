@@ -1,0 +1,19 @@
+# ~/.xonshrc
+$CASE_SENSITIVE_COMPLETIONS = '1'
+$DOTGLOB = '1'
+$XONSH_AUTOPAIR = '1'
+$XONSH_COLOR_STYLE = "rrt"
+$PROMPT = "{env_name}\
+{BOLD_GREEN}{user}@{hostname} \
+{BOLD_BLUE}{cwd}\
+{branch_color}{curr_branch: {}}{RESET} \
+{RED}{last_return_code_if_nonzero:[{BOLD_INTENSE_RED}{}{RED}]}{RESET}\n\
+{BOLD_BLUE}{prompt_end}{RESET} "
+
+# ~/.config/kak/kakrc
+add-highlighter global/ wrap -marker '\'
+add-highlighter global/ number-lines -min-digits 3
+set-face global PrimarySelection black,blue,default+fg
+set-face global SecondarySelection white,blue,default+fg
+#set-face global MenuForeground black,blue,default
+#set-face global MenuBackground blue,black,default
