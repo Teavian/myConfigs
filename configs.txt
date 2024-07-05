@@ -11,7 +11,7 @@ $PROMPT = "{env_name}\
 {BOLD_BLUE}{prompt_end}{RESET} "
 
 # ~/.config/kak/kakrc
-add-highlighter global/ wrap -marker '\'
+add-highlighter global/ wrap -marker '>'
 add-highlighter global/ number-lines -min-digits 3
 set-face global PrimarySelection black,blue,default+fg
 set-face global SecondarySelection white,blue,default+fg
