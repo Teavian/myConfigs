@@ -17,3 +17,7 @@ set-face global PrimarySelection black,blue,default+fg
 set-face global SecondarySelection white,blue,default+fg
 #set-face global MenuForeground black,blue,default
 #set-face global MenuBackground blue,black,default
+hook global BufSetOption filetype=zig %{
+    set-option buffer formatcmd 'zig fmt --stdin'
+    hook global BufWritePre .* format-buffer
+}
