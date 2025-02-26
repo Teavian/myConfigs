@@ -1,0 +1,4 @@
+gh auth login
+git clone git@<repo>.git
+jj git init --colocate
+
