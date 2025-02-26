@@ -1,4 +1,6 @@
 gh auth login
 git clone git@<repo>.git
 jj git init --colocate
+jj describe -m "<message>"
+git push origin HEAD:main
 
