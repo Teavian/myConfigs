@@ -6,7 +6,7 @@ jj git init --colocate
 //jj describe -m "<message>"
 jj commit -m "<message>"
 
-jj git push
+//jj git push
 git push origin HEAD:main
 
 git add .
