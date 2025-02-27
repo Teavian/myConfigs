@@ -21,3 +21,15 @@ hook global BufSetOption filetype=zig %{
     set-option buffer formatcmd 'zig fmt --stdin'
     hook global BufWritePre .* format-buffer
 }
+
+# ~/.config/jj/config.toml
+[user]
+name = "<name>"
+email = "<email>"
+
+[ui]
+editor = "kak"
+
+[git]
+subprocess = true
+
